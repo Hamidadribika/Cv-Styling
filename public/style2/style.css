@@ -1,0 +1,179 @@
+@media only screen and (min-width: 600px) {
+
+
+    #competencies {
+        display: flex;
+    }
+
+        
+}
+
+    #about{
+
+         color:  #a9a9a9; 
+    }
+    #about h3{
+          display: none;
+    }
+ 
+    hgroup h1{
+        color:black;
+        margin-left: 100px;
+        display:inline-block;
+    }
+    hgroup h2 {
+        display: none;
+    }
+    figure {
+        position: relative;
+        margin-left: 450px;
+        transform: rotate(-20deg);
+    }
+    .content{
+        display: grid;
+        padding: 100px;
+        margin-left:20px ;
+    }
+
+    #competencies{
+        display: inline;
+    }
+
+    .skills-primary{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .skills-primary [data-skill="5"]{
+        background-color: #008080; 
+        padding: 1px;
+        margin: 2px;
+        width: 50%;
+        
+    }
+    [data-skill="3"]{
+        background-color: #008080; 
+        padding: 1px;
+        margin: 2px;
+        width: 50%;
+
+    }
+
+    [data-skill="1"]{
+        background-color: #008080; 
+        padding: 1px;
+        margin: 2px;
+        width: 50%;
+        
+    }
+
+    .skills-secondary{
+        display: flex;
+        flex-direction:row;
+
+    }
+
+    [data-skill='9']{
+
+        background-color: #008080; 
+        padding: 1px;
+        margin: 2px;
+        width: 50%;
+
+    }
+
+
+    .skills-secondary [data-skill="5"]{ 
+        background-color: #008080; 
+        width: 50%;
+        padding: 1px;
+        margin: 2px;
+        
+    }
+
+    [data-skill="7"]{
+        background-color: #008080; 
+        padding: 1px;
+        margin: 2px;
+        width: 50%;
+    }
+    .experience{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    #experiences{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .experience-type{
+        color: #008080; 
+    
+    }
+    .experience-institution{
+        display:none;
+    }
+
+    .experience-date{
+        color: #a9a9a9;
+    }
+    .experience-location{
+        color: #a9a9a9;
+    }
+
+    #hobbies {
+        display: flex;
+        flex-direction: row;
+        }
+
+
+        #contact h3 {
+            display: none;    
+            }
+
+
+    #contact{
+        
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-email {
+
+        content: url(../images/email.png);
+        display: inline-block;
+        height: 90px;
+        width: 90px;
+    }
+
+    .contact-phone {    
+        content: url(../images/phone.png);
+        display: inline-block;
+        height: 90px;
+        width: 90px;
+    }
+    .contact-github{
+
+        content: url(../images/github.png);
+        display: inline-block;
+        height: 90px;
+        width: 90px;
+    }
+
+    .contact-facebook{
+
+        content: url(../images/facebook.png);
+        display: inline-block;
+        height: 90px;
+        width: 90px;
+    }
+
+    .contact-skype{
+        display: none;
+    }
